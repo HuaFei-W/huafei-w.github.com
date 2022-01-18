@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#poem p {
+    position: absolute;
+    padding: 1em;
+    font-size: 2.1em;
+    transition: all 1.5s;
+    transition-delay: calc(var(--i)*.1s);
+    cursor: pointer;
+}
+
+#poem:hover p{
+    color: rgba(255, 255, 255, 0.795);
+    text-shadow: 0px 0 2px rgba(255, 255, 255, 0.459),
+    0 0 10px #fff,
+    0 0 10px rgb(214, 175, 103),
+    0 0 10px #fff,
+    0 0 10px #fff;
+}
+
+
+#line1 {
+    bottom: 48%;
+    left: 0%;
+}
+
+#line2 {
+    bottom: 10%;
+    left: 75%;
+} 
+
+#line3 {
+    bottom: 45%;
+    left: 38%;
+} 
+
+#line4 {
+    bottom: 45%;
+    left: 38%;
+}
+
+#line5 {
+    bottom: 45%;
+    left: 27%;
+}
+
+#line6 {
+    bottom: 45%;
+    left: 33%;
+}
+
+#line7 {
+    bottom: 45%;
+    left: 40%;
+}
+
+#line8 {
+    bottom: 45%;
+    left: 33%;
+}
+
+.fa-expand {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-expand:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.showing {
+    opacity: 1;
+}
+
