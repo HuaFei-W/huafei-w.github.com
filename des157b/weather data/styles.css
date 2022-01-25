@@ -7,7 +7,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
     color: #333;
-	background-color: rgba(221, 211, 185, 0.705);
+	background: linear-gradient(90deg, #edc0bf 0,#c4caef 50%);
 }
 
 #title {
@@ -42,7 +42,9 @@ body {
 	margin-top: 180px;
 	border-radius: 20px;
 	width: 550px;
-	background-color: #ffffffe5;
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 10px 10px 20px 10px rgba(105, 99, 99, 0.473);
@@ -81,7 +83,6 @@ body {
     animation: smog 2.5s infinite;
 	font-size: 108px;
 }
-
 
 @keyframes smog {
     0% {
