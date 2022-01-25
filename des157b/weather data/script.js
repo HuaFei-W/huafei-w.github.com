@@ -20,13 +20,10 @@ function updateInterface (point,data){
         '<i class="bi bi-brightness-high" style="color:rgba(228, 171, 15, 0.918);"></i>',
         '<i class="bi bi-cloud-fog-fill" style="color:rgba(126, 121, 109, 0.918);"></i>',
     ];
-    document.querySelector('#time').innerHTML = data[point].time;
+    document.querySelector('#time').innerHTML = data[point].weather2;
     document.querySelector('#temp').innerHTML = data[point].temp;
     document.querySelector('#weather').innerHTML = bootstrap[data[point].weather];
 
-    let html = '<p>';
-    html += '<i class="far fa-angry "></i>';
-    html += '</p>';
     // document.querySelector('#result').innerHTML = html;
     return html;
 }
