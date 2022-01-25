@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+    color: #333;
+	background-color: rgba(221, 211, 185, 0.705);
+}
+
+#title {
+    text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: rgb(207, 140, 140);
+}
+
+#pi {
+    text-align: center;
+	justify-content: center;
+	margin-bottom: 100px;
+	color: rgba(95, 83, 80, 0.897);
+}
+
+#picker {
+	width: 200px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(48, 128, 207);
+	background-color: rgba(255, 255, 255, 0.712);
+	box-shadow: 10px 10px 20px 10px rgba(150, 137, 137, 0.39);
+	border-radius: 10px;
+}
+
+#picker:hover {
+	background-color: rgba(248, 244, 244, 0.712);
+}
+
+#container {
+	margin-top: 180px;
+	border-radius: 20px;
+	width: 550px;
+	height: 500px 500px;
+	background-color: #ffffffe5;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 20px 10px rgba(105, 99, 99, 0.473);
+}
+
+#weather {
+	position: absolute;
+    font-size: 110px;
+	margin-left: 80px;	
+	margin-bottom: 2px;
+	/* min-height: 100vh; */
+}
+
+#temp {
+	color: rgb(36, 34, 34);
+	font-size: 80px;
+	margin-left: 300px;
+	margin-top: 30px;
+	color: rgba(63, 147, 180, 0.788);
+}
+
+#time {
+	margin-left: 115px;	
+	margin-top: 0px;
+	min-height: 1vh;
+	color: rgb(107, 102, 77);
+}
+
+.fa-sun {
+	-webkit-animation: fa-spin 6s infinite linear;
+	animation: fa-spin 6s infinite linear;
+}
+
+.bi-cloud-fog-fill {
+	-webkit-animation: smog 1.5s infinite;
+    animation: smog 2.5s infinite;
+	font-size: 108px;
+}
+
+@keyframes smog {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+
+  
