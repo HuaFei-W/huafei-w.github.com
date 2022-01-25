@@ -42,7 +42,6 @@ body {
 	margin-top: 180px;
 	border-radius: 20px;
 	width: 550px;
-	height: 500px 500px;
 	background-color: #ffffffe5;
 	margin-left: auto;
 	margin-right: auto;
@@ -72,9 +71,9 @@ body {
 	color: rgb(107, 102, 77);
 }
 
-.fa-sun {
-	-webkit-animation: fa-spin 6s infinite linear;
-	animation: fa-spin 6s infinite linear;
+.bi-brightness-high {
+	animation: spin-animation 11.8s linear infinite;
+    display: inline-block;
 }
 
 .bi-cloud-fog-fill {
@@ -82,6 +81,7 @@ body {
     animation: smog 2.5s infinite;
 	font-size: 108px;
 }
+
 
 @keyframes smog {
     0% {
@@ -98,5 +98,6 @@ body {
     }
 }
 
-
-  
+@keyframes spin-animation {
+    100% { transform: rotate(360deg); }
+}

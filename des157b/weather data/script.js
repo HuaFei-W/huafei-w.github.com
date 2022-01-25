@@ -17,7 +17,7 @@ function outputHTML(data){
 function updateInterface (point,data){
     const bootstrap = [
         '<i class="bi bi-cloud-lightning-rain-fill"></i>',
-        '<i class="far fa-sun" style="color:rgba(228, 171, 15, 0.918);"></i>',
+        '<i class="bi bi-brightness-high" style="color:rgba(228, 171, 15, 0.918);"></i>',
         '<i class="bi bi-cloud-fog-fill" style="color:rgba(126, 121, 109, 0.918);"></i>',
     ];
     document.querySelector('#time').innerHTML = data[point].time;
