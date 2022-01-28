@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends</title>
     <!--/ /-------- Normalize CSS --------/ /-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    
+
     <!--/ /-------- Font Awesome --------/ /-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    
+
     <!--/ /-------- Google Fonts --------/ /-->
     <link href="https://fonts.googleapis.com/css?family=Baloo|IBM+Plex+Sans+Condensed:300,600&display=swap" rel="stylesheet">
-    
+
     <!--/ /-------- Site Styling --------/ /-->
     <link href="styles.css" rel="stylesheet">
 
     <!--/ /-------- Parse Library --------/ /-->
-    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
 
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -27,94 +29,7 @@
         </div>
     </header>
     <main>
-        <ol class="container">
-            <li>
-                <div class="name">
-                    FirstName LastName
-                </div>
-                <div class="email">
-                    <i class="fas fa-envelope-square"></i> user@someemail.com
-                </div>
-                <div class="social">
-                    <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <i class="fas fa-edit"></i>
-                <i class="fas fa-times-circle"></i>
-            </li>
-
-            <li>
-                <div class="name">
-                    FirstName LastName
-                </div>
-                <div class="email">
-                    <i class="fas fa-envelope-square"></i> user@someemail.com
-                </div>
-                <div class="social">
-                    <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <i class="fas fa-edit"></i>
-                <i class="fas fa-times-circle"></i>
-            </li>
-
-            <li>
-                <div class="name">
-                    FirstName LastName
-                </div>
-                <div class="email">
-                    <i class="fas fa-envelope-square"></i> user@someemail.com
-                </div>
-                <div class="social">
-                    <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <i class="fas fa-edit"></i>
-                <i class="fas fa-times-circle"></i>
-            </li>
-
-            <li>
-                <div class="name">
-                    FirstName LastName
-                </div>
-                <div class="email">
-                    <i class="fas fa-envelope-square"></i> user@someemail.com
-                </div>
-                <div class="social">
-                    <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <i class="fas fa-edit"></i>
-                <i class="fas fa-times-circle"></i>
-            </li>
-
-
-            <li>
-                <div class="name">
-                    FirstName LastName
-                </div>
-                <div class="email">
-                    <i class="fas fa-envelope-square"></i> user@someemail.com
-                </div>
-                <div class="social">
-                    <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <i class="fas fa-edit"></i>
-                <i class="fas fa-times-circle"></i>
-            </li>
-
-        </ol>
+        <ol class="container"></ol>
 
     </main>
     <form id="add-friend" class="add-friend-offscreen">
@@ -168,7 +83,7 @@
             <label for="fbook-edit"><i class="fab fa-facebook-square"></i></label>
             <input type="url" id="fbook-edit" name="fbook">
         </div>
-        
+
         <div class="social-input">
             <label for="twitter-edit"><i class="fab fa-twitter-square"></i></label>
             <input type="url" id="twitter-edit" name="twitter">
@@ -193,4 +108,3 @@
     </footer>
     <script src="script.js"></script>
 </body>
-</html>
