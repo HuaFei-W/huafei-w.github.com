@@ -2,27 +2,24 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-p {
-    margin: 0;
-  }
-  
-  .section {
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .section-content {
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-  }
-  
-  #section1 {
-    background-color: #FF82A9;
-  }
-  
-  #section2 {
-    background-color: #7F95D1;
-  }
-  
- 
+.section {
+  text-align:center;
+  font-size: 16px;
+  color: rgb(52, 54, 56);
+}
+
+.section a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 26px;
+}
+
+.section p{
+  line-height: 1.6em;
+  margin: 30px;
+  font-size: 18px;
+}
+
+.section h1 {
+  color: aliceblue;
+}
