@@ -1,0 +1,28 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+  }
+  
+  .section {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-content {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  #section1 {
+    background-color: #FF82A9;
+  }
+  
+  #section2 {
+    background-color: #7F95D1;
+  }
+  
+ 
