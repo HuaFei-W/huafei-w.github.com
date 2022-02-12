@@ -15,10 +15,12 @@ body {
 }
 
 .section p{
-  width: 700px;
   line-height: 1.6em;
-  margin: 30px 300px;
+  margin: 0 0 40px;
+  width: 500px;
+  margin: 60px auto;
   font-size: 18px;
+  padding: 70px 30px;
 }
 
 .section h1 {
