@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+    <style>
+        html {
+            background-color: #efefef;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            line-height: 1.4em;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        code {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Arrow functions with object literal</h1>
+
+    <h2>Named Function</h2>
+    <code>
+        <pre>
+            function sayName() {
+                return {
+                    name: "Amy Yu",
+                    age: 20,
+                }
+            }
+            console.log(sayName().name);
+        </pre>
+    </code>
+
+    <h2>Function Expression</h2>
+    <p>sayName() is a function expresssion that returns an object that returns an object that has properties 
+        name and age set to “Amy Yu” and “20”, respectively.  </p>
+    <code>
+        <pre>
+            const sayName = function(){
+                return {
+                    name: "Amy Yu",
+                    age: 20,
+                };
+            }
+            console.log(sayName().name);
+        </pre>
+    </code>
+
+    <h2>Arrow Function</h2>
+    <code>
+        <pre>
+            const sayName = () => ({
+                name: "Amy Yu",
+                age: 20,
+              });
+            console.log(sayName().name);
+        </pre>
+    </code>
+
+    <div>
+        <a href="index.html">Example</a>
+        <a href="challenges.html">Challenges</a>
+    </div>
+    <footer> HuaFei Wang </footer>
+    
+</body>
+</html>
