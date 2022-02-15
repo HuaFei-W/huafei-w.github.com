@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Livvic:ital,wght@1,200&display=swap');
+
+.main {
+	display: grid;
+	grid-template-columns: 0;
+	grid-template-rows: 0; 
+	margin: 1%;
+    grid-gap: 20px;
+}
+
+
+.info h1 {
+	font-family: Homemade Apple;
+	font-size: 4rem;
+    color: rgba(96, 193, 206, 0.664);
+    margin: 420px 130px ;
+    transform: rotate(-14deg);
+}
+
+p {
+    line-height: 30px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    color: rgb(180, 228, 226);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.one {
+	grid-column: 5;
+	grid-row: 2;
+}
+
+.two {
+	grid-column: 6;
+	grid-row: 2;
+}
+
+.three {
+	grid-column: 5;
+	grid-row: 3;
+}
+
+.four {
+	grid-column: 6;
+	grid-row: 3;
+}
+
+.five {
+    grid-column: 5;
+	grid-row: 4;
+}
