@@ -1,0 +1,237 @@
+body {
+    font-weight: 300;
+    padding: 150px 0px;
+    background-color: #af8b8b;
+}
+
+.one {
+    position: absolute;
+    text-align:center;
+    height: 100px;
+    left: -40px;
+    right: -30px;
+    top: -378px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 290px;
+    line-height: 300px;
+    color: rgba(255, 255, 255, 0.096);
+    mix-blend-mode: lighten;
+}
+
+.two {
+    position: absolute;
+    text-align:center;
+    height: 300px;
+    left: -40px;
+    right: -30px;
+    top: 33px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+}
+
+#adding a{
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    right: 90px;
+    top: 50px;
+    font-size: 48px;
+    color:#fafafa;
+}
+
+#adding a{
+    max-width: 600px;
+    margin: auto;
+}
+
+.showing{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#location, #description {
+    display: flex;
+}
+
+/* Submission Page */
+#form{
+    position: absolute;
+    left: 41.25%;
+    right: 3.85%;
+    top: 7.5%;
+    bottom: 5%;
+    height: 600px;
+    width: 650px;
+    background: #FFFFFF;
+    border-radius: 190px;
+}
+
+#text{
+    position: absolute;
+    width: 415px;
+    height: 234px;
+    left: 68px;
+    top: 88px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: -0.07em;
+    color: #423837;
+}
+
+h1 {
+    position: absolute;
+    width: 345px;
+    height: 45px;
+    left: 145px;
+    top: 90px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #E58270;
+}
+
+label {
+    position: absolute;
+    width: 345px;
+    height: 45px;
+    left: 150px;
+    top: 200px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #E58270;
+}
+
+input {
+    position: absolute;
+    width: 304px;
+    height: 58px;
+    left: 160px;
+    top: 290px;
+    background: #FFFFFF;
+    border: 2px solid #E58270;
+    box-sizing: border-box;
+    border-radius: 26px;
+}
+
+#next{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 19px;
+    position: absolute;
+    width: 141px;
+    height: 42px;
+    left: 250px;
+    top: 406px;
+    background: #E58270;
+    border-radius: 5px;
+}
+
+/* second form */
+textarea {
+    width: 70%;
+    height: 180px;
+    padding: 12px 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    margin-top: 260px;
+    margin-left: 89px;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#send{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 19px;
+    position: absolute;
+    width: 141px;
+    height: 42px;
+    left: 250px;
+    top: 480px;
+    background: #E58270;
+    border-radius: 5px;
+}
+
+
+#buttons{
+  text-align: center;
+}
+
+/* Thank You Page*/
+h2 {
+    position: absolute;
+    width: 345px;
+    height: 45px;
+    left: 500px;
+    top: 90px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: -0.07em;
+    color: #f0ebea;
+}
+
+#thankyou p{
+    position: absolute;
+    width: 550px;
+    height: 116px;
+    left: 400px;
+    top: 350px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #fcfbfa;
+}
+
+#explore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 19px;
+    position: absolute;
+    width: 141px;
+    height: 42px;
+    left: 600px;
+    top: 600px;
+    background: #E58270;
+    border-radius: 5px;
+}
+
+
+
+
