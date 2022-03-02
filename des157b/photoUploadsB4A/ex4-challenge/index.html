@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploading Files</title>
+    <link href="styles.css" rel="stylesheet">
+
+    <!--/ /-------- Load Parse Library --------/ /-->
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Upload a file</h1>
+        <form id="add-food" class="add-food-offscreen">
+            <label for="fileupload">Upload a File</label>
+            <input type="file" id="fileupload">
+
+            <!-- for this challenge, you will upload also a short title and description with each photo -->
+
+            <label for="title">Add a Title</label>
+            <input type="text" id="title">
+
+            <label for="desciption">Add a Description</label>
+            <textarea id="description" cols="50" rows ="8"></textarea>
+
+            <input type="submit" value="send file">
+        </form>
+        <div id="uploaded-img"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
