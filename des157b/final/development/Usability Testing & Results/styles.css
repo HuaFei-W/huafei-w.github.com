@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    background: #E9B8B8;
+}
+
+h1 {
+    position: absolute;
+    text-align:center;
+    height: 300px;
+    left: -40px;
+    right: -30px;
+    bottom: 380px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 310px;
+    color: rgba(255, 255, 255, 0.21);
+    mix-blend-mode: lighten;
+}
+
+.one {
+    position: absolute;
+    width: 413px;
+    left: 230px;
+    top: 280px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.two {
+    position: absolute;
+    width: 725px;
+    left: 230px;
+    top: 430px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.three {
+    position: absolute;
+    width: 153px;
+    height: 19px;
+    left: calc(50% - 153px/2);
+    top: 700px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 80%;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: #FFFFFF;
+}
+
+.balltwo {
+    position: absolute;
+    width: 280px;
+    height: 255px;
+    right: -100px;
+    top: 250px;
+    background: #d3b08875;
+    box-shadow: inset 0px 0px 30px 4px rgba(223, 131, 55, 0.507);
+    border-radius: 200px;
+}
+
+.five {
+    position: absolute;
+    text-align:center;
+    height: 320px;
+    left: -40px;
+    right: -30px;
+    bottom: 380px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 290px;
+    line-height: 380px;
+    color: rgba(255, 255, 255, 0.096);
+    mix-blend-mode: lighten;
+}
+
+.six{
+    position: absolute;
+    text-align:center;
+    height: 320px;
+    left: -40px;
+    right: -30px;
+    top: 33px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+
+}
+
+.ballone{
+    position: absolute;
+    width: 398px;
+    height: 408px;
+    left: -124px;
+    top: 290px;
+    background: rgba(235, 183, 173, 0.801);
+    box-shadow: inset 0px 0px 50.3049px 6.70732px rgba(236, 143, 124, 0.918);
+    border-radius: 200px;
+    overflow:visible;
+}
+
+.add label {
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    right: 90px;
+    top: 50px;
+    font-size: 48px;
+    color:#fafafa;
+}
+
+ a{
+    text-decoration: none;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #E68270;
+    margin:  140px;
+    background: #FFFFFF;
+    border: 3px solid #E58270;
+    border-radius: 50px;
+    padding: 13px 23px;
+}
+
+.food{
+    position: absolute;
+    width: 54px;
+    height: 29px;
+    left: 253px;
+    top: 290px;
+}
+
+
+.fash {
+    position: absolute;
+    width: 81px;
+    height: 29px;
+    left: 470px;
+    top: 290px;
+}
+
+.arts {
+    position: absolute;
+    width: 300px;
+    height: 29px;
+    left: 720px;
+    top: 290px;
+}
+
+.fest {
+    position: absolute;
+    width: 88px;
+    height: 29px;
+    left: 311px;
+    top: 470px;
+}
+
+.arch{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 583px;
+    top: 470px;
+}
+
+
+
