@@ -1,7 +1,7 @@
 Parse.initialize("ogfPqYG2MQvgizlicdfIFd5pdfFcdqUsNBc9QlwN", "YmnCdl4vifij1okNIMu9KhdY2IlyGM2DJq0rMULH");
 Parse.serverURL = "https://parseapi.back4app.com/";
 
-// const foodlist = document.querySelector("section");
+// const friendlist = document.querySelector("section");
 const mainpage = document.querySelector('#mainpage');
 const submitpage = document.querySelector('#submitpage');
 const firstform = document.querySelector('#firstform');
@@ -62,10 +62,11 @@ explore.addEventListener('click', function() {
 
 upload_file.addEventListener('change', function() {
 	var file = upload_file.files[0];
+	console.log(file)
 	r = new FileReader();
 	r.onload = function() {
 		// console.log(r.result)
-		imgSrc = r.result;
+		imgSrc = file;
 		showImage.src = r.result;
 		showImage.className = 'showing';
 	}
@@ -80,15 +81,15 @@ async function displayFood() {
 	try {
 		const results = await query.ascending("location").find();
 
-			results.forEach(function(eachFood) {
+		results.forEach(function(eachFood) {
 			const id = eachFood.id;
 			const location = eachFood.get("location");
-			const file = eachFood.get("file");
+			const file = eachFood.get("file").url();
+			console.log(file);
 			const description = eachFood.get("description");
-			const thedivItem = document.createElement("div");
-			let src=""
+			//let file=""
 			let r = new FileReader();
-			r.onload = function() {
+			const thedivItem = document.createElement("div");
 			thedivItem.innerHTML = `<div class="name">
 					<img src="${file}" >
 					<div>
@@ -115,17 +116,19 @@ async function addFood() {
 	// 	newFood[key] = value;
 	// }
 	newFood.location = document.getElementById("location").value;
+	newFood.description = document.getElementById("description").value;
+	newFood.upload_file = document.getElementById("upload_file").files[0];
+	newFood.upload_file_name = document.getElementById("upload_file").files[0].name;
 	newFood.file = imgSrc;
 	newFood.description = description.value;
 	
 	if (
 		newFood.location != "" &&
-		newFood.description != "" &&
-		newFood.file != ""
+		newFood.description != ""
 	) {
 		const newFoodData = new Parse.Object("food");
 		newFoodData.set("location", newFood.location);
-		newFoodData.set("file", newFood.file);
+		newFoodData.set("file", new Parse.File(newFood.upload_file_name, newFood.upload_file));
 		newFoodData.set("description", newFood.description);
 
 		try {

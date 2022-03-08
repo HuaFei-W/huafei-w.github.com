@@ -1,0 +1,45 @@
+body {
+    background: #E9B8B8;
+}
+
+.one, p{
+    position: absolute;
+    text-align:center;
+    height: 100px;
+    left: -40px;
+    right: -30px;
+    top: -378px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 290px;
+    line-height: 300px;
+    color: rgba(255, 255, 255, 0.096);
+    mix-blend-mode: lighten;
+}
+
+.two, p{
+    position: absolute;
+    text-align:center;
+    height: 320px;
+    left: -40px;
+    right: -30px;
+    top: 33px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+}
+
+.add label {
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    right: 90px;
+    top: 50px;
+    font-size: 48px;
+    color:#fafafa;
+}
