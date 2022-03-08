@@ -27,7 +27,7 @@ h1 {
     left: 230px;
     top: 280px;
     font-family: Helvetica Neue;
-    font-style: normal;
+    font-style: bold;
     font-weight: bold;
     font-size: 36px;
     line-height: 46px;
@@ -40,11 +40,11 @@ h1 {
     width: 725px;
     left: 230px;
     top: 430px;
-    font-family: Heebo;
+    font-family: Helvetica Neue;
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 24px;
-    line-height: 100%;
+    line-height: 33px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -64,6 +64,49 @@ h1 {
     letter-spacing: 0.5em;
     color: #FFFFFF;
 }
+
+.main{
+    position: absolute;
+    width: 880px;
+    left: 30px;
+    top: 50px;
+    font-family: Helvetica Neue;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.sub{
+    position: absolute;
+    width: 900px;
+    left: 30px;
+    top: 140px;
+    font-family: Helvetica Neue;
+    font-style: lighter;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #ffffff; 
+}
+
+.subtwo{
+    position: absolute;
+    width: 730px;
+    left: 230px;
+    top: 535px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
 
 .balltwo {
     position: absolute;
@@ -131,58 +174,73 @@ h1 {
     color:#fafafa;
 }
 
- a{
-    text-decoration: none;
-    font-family: Helvetica Neue;
+
+/* landing buttonspage */
+a{
+    padding: 1rem;
+    border-radius: 15px;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    color: #E68270;
-    margin:  140px;
-    background: #FFFFFF;
-    border: 3px solid #E58270;
-    border-radius: 50px;
-    padding: 13px 23px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    mix-blend-mode: lighten;
+    text-decoration: none;
+    border: 1.5px solid #f5f5f594;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+a:hover {
+    box-shadow: 0 5px rgba(201, 124, 124, 0.411);
+    transform: translateY(5px);
 }
 
 .food{
     position: absolute;
-    width: 54px;
-    height: 29px;
-    left: 253px;
-    top: 290px;
+    width: 500px;
+    left: 250px;
+    top:270px;
 }
 
 
 .fash {
     position: absolute;
-    width: 81px;
-    height: 29px;
-    left: 470px;
-    top: 290px;
+    width: 54px;
+    left: 540px;
+    top:270px;
 }
 
-.arts {
-    position: absolute;
-    width: 300px;
-    height: 29px;
-    left: 720px;
-    top: 290px;
-}
 
 .fest {
     position: absolute;
-    width: 88px;
-    height: 29px;
-    left: 311px;
-    top: 470px;
+    width: 54px;
+    left: 540px;
+    top:400px;
 }
 
 .arch{
     position: absolute;
-    width: 123px;
-    height: 29px;
-    left: 583px;
-    top: 470px;
+    width: 54px;
+    left: 250px;
+    top:400px;
 }
+
+#container{ 
+    width: 950px;
+    height: 560px;
+    margin: 10% auto;
+    padding: 40px;
+    border: 1px solid #f5f5f594;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.185);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px 0px #f5f5f5;
+    z-index: 1;
+}
+
+
+
+
 

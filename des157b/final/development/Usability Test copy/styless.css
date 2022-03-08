@@ -23,10 +23,10 @@ body {
 .two {
     position: absolute;
     text-align:center;
-    height: 300px;
+    height: auto;
     left: -40px;
     right: -30px;
-    top: 33px;
+    top: 35px;
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
@@ -44,12 +44,14 @@ body {
     top: 50px;
     font-size: 48px;
     color:#fafafa;
-}
-
-#adding a{
     max-width: 600px;
     margin: auto;
 }
+
+#adding a:hover{
+    color: #855b5b;
+}
+
 
 .showing{
     display: block;
@@ -59,18 +61,17 @@ body {
     display: none;
 }
 
-
 #location, #description {
     display: flex;
 }
 
 /* Submission Page */
-#form{
+#firstform{
     position: absolute;
-    left: 41.25%;
+    left: 45.25%;
     right: 3.85%;
-    top: 7.5%;
-    bottom: 5%;
+    top: 12.5%;
+    bottom: 6%;
     height: 600px;
     width: 650px;
     background: #FFFFFF;
@@ -79,10 +80,10 @@ body {
 
 #text{
     position: absolute;
-    width: 415px;
+    width: 340px;
     height: 234px;
-    left: 68px;
-    top: 88px;
+    left: 170px;
+    top: 140px;
     font-family: Helvetica Neue;
     font-style: normal;
     font-weight: bold;
@@ -118,7 +119,7 @@ label {
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 65px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #E58270;
@@ -148,39 +149,18 @@ input {
     left: 250px;
     top: 406px;
     background: #E58270;
-    border-radius: 5px;
+    border: 2px solid #E58270;
+    border-radius: 6px;
+    color: azure;
+    font-family: Helvetica;
 }
 
-/* second form */
-textarea {
-    width: 70%;
-    height: 180px;
-    padding: 12px 30px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    margin-top: 260px;
-    margin-left: 89px;
-    border-radius: 20px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
+#next:hover{
+    color:  #ffffff;
+    background: #e58270d2;
+    border-radius: 6px;
+    border: 2px solid #ffffffd2;
 }
-
-#send{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 6px 19px;
-    position: absolute;
-    width: 141px;
-    height: 42px;
-    left: 250px;
-    top: 480px;
-    background: #E58270;
-    border-radius: 5px;
-}
-
 
 #buttons{
   text-align: center;
@@ -191,7 +171,7 @@ h2 {
     position: absolute;
     width: 345px;
     height: 45px;
-    left: 500px;
+    left: 520px;
     top: 90px;
     font-family: Helvetica Neue;
     font-style: normal;
@@ -206,7 +186,7 @@ h2 {
     position: absolute;
     width: 550px;
     height: 116px;
-    left: 400px;
+    left: 420px;
     top: 350px;
     font-family: Helvetica Neue;
     font-style: normal;
@@ -230,26 +210,83 @@ h2 {
     top: 600px;
     background: #E58270;
     border-radius: 5px;
+    color: azure;
+    font-family: Helvetica;
 }
 
+#explore:hover{
+    color:  #ffffff;
+    background: #e58270d2;
+    border-radius: 6px;
+}
+
+/* second form */
 #secondform{
-	margin-top: 50px;
+    position: absolute;
+    left: 44.25%;
+    top: 8.5%;
+    bottom: 5%;
+    height: 730px;
+    width: 700px;
+    background: #FFFFFF;
+    border-radius: 190px;
+}
+
+#buttons #send{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    position: absolute;
+    width: 141px;
+    height: 42px;
+    left: 275px;
+    background: #E58270;
+    border-radius: 5px;
+    margin-top: 370px;
+    color: azure;
+    font-family: Helvetica;
+}
+
+#send:hover{
+    color:  #ffffff;
+    background: #e58270d2;
+    border-radius: 6px;
+    border: 2px solid #ffffffd2;  
 }
 
 #secondform label,#secondform input{
 	position: static;
 	display: block;
-	margin: 0 auto;
+	margin: 18px auto;
 }
 
+#secondform #title{
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
 #secondform textarea{
-	margin-top: 0;
+    width: 70%;
+    height: 180px;
+    padding: 12px 30px;
+    box-sizing: border-box;
+    border: 2px solid #E58270;
+    margin-left: 110px;
+    border-radius: 20px;
+    background-color: #ffffff81;
+    font-size: 16px;
+    resize: none;
+	margin-top: 10px;
 }
 
 .photoBox{
 	display: flex;
-	width: 70%;
-	margin: 0 auto;
+	width: 80%;
+	margin: 40px 240px ;
 	margin-bottom: 20px;
 }
 
@@ -257,8 +294,8 @@ h2 {
 	width: 100px;
 	height: 100px;
 	border: none;
-	border-radius: 0;
-	margin: 0;
+	border-radius: 0px;
+	margin: 20px;
 	opacity: 0;
 	position: absolute;
 	top: 0;
@@ -268,7 +305,7 @@ h2 {
 .fileA{
 	width: 100px;
 	height: 100px;
-	border: 2px solid #ccc;
+	border: 2px solid #E58270;
 	text-align: center;
 	line-height: 100px;
 	font-size: 80px;
@@ -279,10 +316,10 @@ h2 {
 }
 
 #showImage{
-	width: 100px;
+	width: 200px;
 	height: 100px;
 	margin-right: 20px;
-	border: 2px solid #ccc;
+	border: 2px solid #E58270;
 	border-radius: 20px;
 }
 
@@ -290,35 +327,143 @@ h2 {
 	margin-top: 20px;
 }
 
+ /* mainpage */
 #friendlist{
-	color: #fff;
-	width: 80%;
-	margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120vh;
+    transform: rotate(-90deg) translate3d(0, -20vh, 0);
+    transform-origin: right top;
+    overflow-y: show;
+    overflow-x: hidden;
+    padding: -20px;
+    height: 80vw;
+    perspective: 1px;
+	transform-style: preserve-3d;
+	margin-left: -48%;
+    margin-top: -8%;
+ 
 }
+
 .name{
-	display: flex;
-	align-items: center;
-	margin-bottom: 20px;
+	display: inline-block;
+    transform: rotate(90deg);
+    background: rgba(255, 255, 255, 0.185);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 8px 0px #f5f5f5;
+    z-index: 1;
+    padding: 47px;
+    width: 400px;
+    margin: 50px 0 -200px;
+    border-radius: 25px;
+    font-family: Helvetica;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+       
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0);
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);  
+}
+
+.name:hover{
+    filter: drop-shadow(0 0px 0px rgba(189, 184, 184, 0.86));
+}
+
 .name img{
-	width: 80px;
-	height: 80px;
+	width: 397px;
+	height: 290px;
 	margin-right: 20px;
+    border-radius: 30px;
+    justify-content: center;
 }
-.name>div{
-	height: 80px;
-	display: flex;
+
+/* .name>div{
+    display: inline-block;
+	height: 5px;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 10px 0;
-	box-sizing: border-box;
-}
+	padding: 9px;
+} */
+
 .name>div p{
-	margin: 0;
-	font-size: 22px;
-	font-weight: bold;
-}
-.name>div p:nth-child(2){
-	font-size: 16px;
+	margin-left: 20px;
+	font-size: 20px;
 	font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.name>div p i{
+	margin: 0 20px 1px 0;
+    font-weight: bold;
+}
+
+.name>div p:nth-child(1){
+    display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+    color: #ffffff;
+}
+
+.name>div p:nth-child(2){
+    display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+    width: 330px;
+    word-wrap: break-word;
+    line-height: 25px;
+    margin-top: -200px;
+    color: #ffffff;
+}
+
+.name>div p:nth-child(3){
+    display: inline-block;
+	font-size: 20px;
+	font-weight: lighter;
+    width: 330px;
+    word-wrap: break-word;
+    line-height: 26px;
+    margin-top: -1px;
+    color: #ffffff;
+}
+
+/* back buttons */
+.back a{
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    left: 60px;
+    top: 50px;
+    font-size: 50px;
+    color:#fafafa;
+    max-width: 600px;
+    margin: auto;
+}
+
+#backtopage a{
+    position: absolute;
+    text-align:center;
+    height: 100px;
+    left: -490px;
+    top: 20px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#backtofirstform a{
+    position: absolute;
+    text-align:center;
+    height: 100px;
+    left: -480px;
+    top: 46px;
+    font-size: 50px;
+    color:#ffffff;
 }
